@@ -1,0 +1,42 @@
+.usercard {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid rgb(5, 5, 63);
+    padding: 2px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(89, 16, 95);
+    /* flex-wrap: wrap; */
+    
+
+    & button {
+        font-size:medium;
+        color: white;
+        background-color: rgb(45, 95, 214);
+        margin: 5px;
+    }
+
+    & input {
+        border: 2px solid rgb(29, 29, 238);
+        margin: 5px;
+        border-radius: 5px;
+    }
+    
+    & fieldset {
+        border: 2px solid rgb(4, 4, 31);
+        border-radius: 5px;
+      
+
+        & fieldset :hover {
+            background-color: rgba(184, 239, 250, 0.974);
+          }
+
+    }
+
+
+   
+      
+    }
